@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA33BEEA272E210300B17E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33BEE9272E210300B17E1B /* AppDelegate.swift */; };
+		CA33BEEC272E210300B17E1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33BEEB272E210300B17E1B /* SceneDelegate.swift */; };
+		CA33BEEE272E210300B17E1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33BEED272E210300B17E1B /* ViewController.swift */; };
+		CA33BEF1272E210300B17E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA33BEEF272E210300B17E1B /* Main.storyboard */; };
+		CA33BEF3272E210500B17E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA33BEF2272E210500B17E1B /* Assets.xcassets */; };
+		CA33BEF6272E210500B17E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA33BEF4272E210500B17E1B /* LaunchScreen.storyboard */; };
+		CA33BF01272E210600B17E1B /* MemoApp2021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33BF00272E210600B17E1B /* MemoApp2021Tests.swift */; };
+		CA33BF0B272E210600B17E1B /* MemoApp2021UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33BF0A272E210600B17E1B /* MemoApp2021UITests.swift */; };
+		CA33BF0D272E210600B17E1B /* MemoApp2021UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33BF0C272E210600B17E1B /* MemoApp2021UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA33BEFD272E210600B17E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA33BEDE272E210300B17E1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA33BEE5272E210300B17E1B;
+			remoteInfo = MemoApp2021;
+		};
+		CA33BF07272E210600B17E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA33BEDE272E210300B17E1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA33BEE5272E210300B17E1B;
+			remoteInfo = MemoApp2021;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA33BEE6272E210300B17E1B /* MemoApp2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoApp2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA33BEE9272E210300B17E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA33BEEB272E210300B17E1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA33BEED272E210300B17E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA33BEF0272E210300B17E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA33BEF2272E210500B17E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA33BEF5272E210500B17E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA33BEF7272E210500B17E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA33BEFC272E210600B17E1B /* MemoApp2021Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoApp2021Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA33BF00272E210600B17E1B /* MemoApp2021Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoApp2021Tests.swift; sourceTree = "<group>"; };
+		CA33BF06272E210600B17E1B /* MemoApp2021UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoApp2021UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA33BF0A272E210600B17E1B /* MemoApp2021UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoApp2021UITests.swift; sourceTree = "<group>"; };
+		CA33BF0C272E210600B17E1B /* MemoApp2021UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoApp2021UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA33BEE3272E210300B17E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA33BEF9272E210600B17E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA33BF03272E210600B17E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA33BEDD272E210300B17E1B = {
+			isa = PBXGroup;
+			children = (
+				CA33BEE8272E210300B17E1B /* MemoApp2021 */,
+				CA33BEFF272E210600B17E1B /* MemoApp2021Tests */,
+				CA33BF09272E210600B17E1B /* MemoApp2021UITests */,
+				CA33BEE7272E210300B17E1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA33BEE7272E210300B17E1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA33BEE6272E210300B17E1B /* MemoApp2021.app */,
+				CA33BEFC272E210600B17E1B /* MemoApp2021Tests.xctest */,
+				CA33BF06272E210600B17E1B /* MemoApp2021UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA33BEE8272E210300B17E1B /* MemoApp2021 */ = {
+			isa = PBXGroup;
+			children = (
+				CA33BEE9272E210300B17E1B /* AppDelegate.swift */,
+				CA33BEEB272E210300B17E1B /* SceneDelegate.swift */,
+				CA33BEED272E210300B17E1B /* ViewController.swift */,
+				CA33BEEF272E210300B17E1B /* Main.storyboard */,
+				CA33BEF2272E210500B17E1B /* Assets.xcassets */,
+				CA33BEF4272E210500B17E1B /* LaunchScreen.storyboard */,
+				CA33BEF7272E210500B17E1B /* Info.plist */,
+			);
+			path = MemoApp2021;
+			sourceTree = "<group>";
+		};
+		CA33BEFF272E210600B17E1B /* MemoApp2021Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CA33BF00272E210600B17E1B /* MemoApp2021Tests.swift */,
+			);
+			path = MemoApp2021Tests;
+			sourceTree = "<group>";
+		};
+		CA33BF09272E210600B17E1B /* MemoApp2021UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA33BF0A272E210600B17E1B /* MemoApp2021UITests.swift */,
+				CA33BF0C272E210600B17E1B /* MemoApp2021UITestsLaunchTests.swift */,
+			);
+			path = MemoApp2021UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA33BEE5272E210300B17E1B /* MemoApp2021 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA33BF10272E210600B17E1B /* Build configuration list for PBXNativeTarget "MemoApp2021" */;
+			buildPhases = (
+				CA33BEE2272E210300B17E1B /* Sources */,
+				CA33BEE3272E210300B17E1B /* Frameworks */,
+				CA33BEE4272E210300B17E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoApp2021;
+			productName = MemoApp2021;
+			productReference = CA33BEE6272E210300B17E1B /* MemoApp2021.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA33BEFB272E210600B17E1B /* MemoApp2021Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA33BF13272E210600B17E1B /* Build configuration list for PBXNativeTarget "MemoApp2021Tests" */;
+			buildPhases = (
+				CA33BEF8272E210600B17E1B /* Sources */,
+				CA33BEF9272E210600B17E1B /* Frameworks */,
+				CA33BEFA272E210600B17E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA33BEFE272E210600B17E1B /* PBXTargetDependency */,
+			);
+			name = MemoApp2021Tests;
+			productName = MemoApp2021Tests;
+			productReference = CA33BEFC272E210600B17E1B /* MemoApp2021Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA33BF05272E210600B17E1B /* MemoApp2021UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA33BF16272E210600B17E1B /* Build configuration list for PBXNativeTarget "MemoApp2021UITests" */;
+			buildPhases = (
+				CA33BF02272E210600B17E1B /* Sources */,
+				CA33BF03272E210600B17E1B /* Frameworks */,
+				CA33BF04272E210600B17E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA33BF08272E210600B17E1B /* PBXTargetDependency */,
+			);
+			name = MemoApp2021UITests;
+			productName = MemoApp2021UITests;
+			productReference = CA33BF06272E210600B17E1B /* MemoApp2021UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA33BEDE272E210300B17E1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					CA33BEE5272E210300B17E1B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					CA33BEFB272E210600B17E1B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CA33BEE5272E210300B17E1B;
+					};
+					CA33BF05272E210600B17E1B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CA33BEE5272E210300B17E1B;
+					};
+				};
+			};
+			buildConfigurationList = CA33BEE1272E210300B17E1B /* Build configuration list for PBXProject "MemoApp2021" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA33BEDD272E210300B17E1B;
+			productRefGroup = CA33BEE7272E210300B17E1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA33BEE5272E210300B17E1B /* MemoApp2021 */,
+				CA33BEFB272E210600B17E1B /* MemoApp2021Tests */,
+				CA33BF05272E210600B17E1B /* MemoApp2021UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA33BEE4272E210300B17E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA33BEF6272E210500B17E1B /* LaunchScreen.storyboard in Resources */,
+				CA33BEF3272E210500B17E1B /* Assets.xcassets in Resources */,
+				CA33BEF1272E210300B17E1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA33BEFA272E210600B17E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA33BF04272E210600B17E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA33BEE2272E210300B17E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA33BEEE272E210300B17E1B /* ViewController.swift in Sources */,
+				CA33BEEA272E210300B17E1B /* AppDelegate.swift in Sources */,
+				CA33BEEC272E210300B17E1B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA33BEF8272E210600B17E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA33BF01272E210600B17E1B /* MemoApp2021Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA33BF02272E210600B17E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA33BF0B272E210600B17E1B /* MemoApp2021UITests.swift in Sources */,
+				CA33BF0D272E210600B17E1B /* MemoApp2021UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA33BEFE272E210600B17E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA33BEE5272E210300B17E1B /* MemoApp2021 */;
+			targetProxy = CA33BEFD272E210600B17E1B /* PBXContainerItemProxy */;
+		};
+		CA33BF08272E210600B17E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA33BEE5272E210300B17E1B /* MemoApp2021 */;
+			targetProxy = CA33BF07272E210600B17E1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA33BEEF272E210300B17E1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA33BEF0272E210300B17E1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA33BEF4272E210500B17E1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA33BEF5272E210500B17E1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA33BF0E272E210600B17E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA33BF0F272E210600B17E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA33BF11272E210600B17E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TK6FN4LAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemoApp2021/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Toshiya.k.MemoApp2021;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA33BF12272E210600B17E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TK6FN4LAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemoApp2021/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Toshiya.k.MemoApp2021;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA33BF14272E210600B17E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TK6FN4LAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Toshiya.k.MemoApp2021Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoApp2021.app/MemoApp2021";
+			};
+			name = Debug;
+		};
+		CA33BF15272E210600B17E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TK6FN4LAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Toshiya.k.MemoApp2021Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoApp2021.app/MemoApp2021";
+			};
+			name = Release;
+		};
+		CA33BF17272E210600B17E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TK6FN4LAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Toshiya.k.MemoApp2021UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MemoApp2021;
+			};
+			name = Debug;
+		};
+		CA33BF18272E210600B17E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TK6FN4LAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Toshiya.k.MemoApp2021UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MemoApp2021;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA33BEE1272E210300B17E1B /* Build configuration list for PBXProject "MemoApp2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA33BF0E272E210600B17E1B /* Debug */,
+				CA33BF0F272E210600B17E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA33BF10272E210600B17E1B /* Build configuration list for PBXNativeTarget "MemoApp2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA33BF11272E210600B17E1B /* Debug */,
+				CA33BF12272E210600B17E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA33BF13272E210600B17E1B /* Build configuration list for PBXNativeTarget "MemoApp2021Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA33BF14272E210600B17E1B /* Debug */,
+				CA33BF15272E210600B17E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA33BF16272E210600B17E1B /* Build configuration list for PBXNativeTarget "MemoApp2021UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA33BF17272E210600B17E1B /* Debug */,
+				CA33BF18272E210600B17E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA33BEDE272E210300B17E1B /* Project object */;
+}
